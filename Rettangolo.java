@@ -11,8 +11,8 @@ public class Rettangolo {
 	public void trasla(int x, int y) {
 		this.x += x;
 		this.y += y;
-		this.altezza += this.y;
-		this.lunghezza += this.x;
+		this.altezza += y;
+		this.lunghezza += x;
 	}
 	
 	public void getDati() {
